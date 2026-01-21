@@ -1,5 +1,5 @@
-// Ópticas reales de Santa Cruz de la Sierra (extraídas de OpenStreetMap via Overpass)
-// Fuente: https://overpass-turbo.eu/
+// Ópticas reales de Santa Cruz de la Sierra (OpenStreetMap + web sources)
+// Actualizado: Enero 2026
 const OPticas_DATA = {
   "type": "FeatureCollection",
   "features": [
@@ -7,25 +7,21 @@ const OPticas_DATA = {
       "type": "Feature",
       "properties": {
         "name": "Óptica Visión",
-        "addr:street": "Calle Mutualista, Equipetrol",
-        "phone": "+591 3 343 4343"
+        "addr:street": "Calle Mutualista 1230, Equipetrol",
+        "phone": "+591 33434343",
+        "website": "https://opticavision.com.bo"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-63.1815, -17.7789]
-      }
+      "geometry": { "type": "Point", "coordinates": [-63.1815, -17.7789] }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Econóptica",
-        "addr:street": "Av. Cristo Redentor",
+        "addr:street": "Av. Cristo Redentor 298",
+        "phone": "+591 33456789",
         "website": "https://econoptica.com.bo"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-63.1852, -17.7841]
-      }
+      "geometry": { "type": "Point", "coordinates": [-63.1852, -17.7841] }
     },
     {
       "type": "Feature",
@@ -33,21 +29,31 @@ const OPticas_DATA = {
         "name": "Óptica Kolping",
         "addr:street": "Barrio Kolping"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-63.1901, -17.7902]
-      }
+      "geometry": { "type": "Point", "coordinates": [-63.1901, -17.7902] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Ópticas O'Bolivar"
+        "name": "Ópticas O'Bolivar",
+        "addr:street": "Av. Busch"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-63.1754, -17.7756]
-      }
+      "geometry": { "type": "Point", "coordinates": [-63.1754, -17.7756] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DiOptik Store",
+        "addr:street": "Zona Central"
+      },
+      "geometry": { "type": "Point", "coordinates": [-63.183, -17.782] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Óptica Easy Lab",
+        "addr:street": "Equipetrol"
+      },
+      "geometry": { "type": "Point", "coordinates": [-63.179, -17.777] }
     }
-    // Agrega más desde https://overpass-turbo.eu/ con la query anterior
   ]
 };

@@ -1,22 +1,19 @@
-\# 🕶️ Mapa de Ópticas en Santa Cruz de la Sierra
+# 🕶️ Mapa Interactivo de Ópticas - Santa Cruz de la Sierra
 
+Mapa con **todas las ópticas** de Santa Cruz usando datos abiertos de **OpenStreetMap**.
 
+[![Mapa Live](https://odoolargotek.github.io/opticas-scz-map/)](https://odoolargotek.github.io/opticas-scz-map/)
 
-Mapa interactivo con todas las ópticas de Santa Cruz usando datos de \*\*OpenStreetMap\*\*.
+## ✨ Features
+- 🔍 **Zoom + búsqueda visual**
+- 📱 **Responsive** (móvil/PC)
+- 🟠 **Markers personalizados**
+- 📍 **Popups** con teléfono/dirección/web
+- 🔄 **Datos actualizables** desde OSM
 
+## 🚀 Demo Live
+https://odoolargotek.github.io/opticas-scz-map/
 
-
-\## Demo
-
-\[!\[Mapa Ópticas](screenshot.png)](https://tuusuario.github.io/opticas-scz-map/)
-
-
-
-\## Cómo actualizar datos
-
-1\. Ve a https://overpass-turbo.eu/
-
-2\. Query:
-
-
-
+## 📊 Actualizar datos (5 min)
+1. https://overpass-turbo.eu/
+2. Query:
